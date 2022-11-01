@@ -1,0 +1,7 @@
+POST http://localhost:5003/user/setTitle
+token: <AUTH_TOKEN>
+Content-Type: application/json
+
+{
+    "title":"mohsenXAD"
+}
