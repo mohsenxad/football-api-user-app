@@ -2,7 +2,7 @@ const express = require('express');
 var bodyParser = require('body-parser')
 require('dotenv').config();
 
-const auth = require('./auth')(
+const auth = require('football-middleware-authentication-app')(
     process.env.ACCESS_TOKEN_SECRET,
     process.env.REFRESH_TOKEN_SECRET
 )
