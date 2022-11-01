@@ -1,0 +1,11 @@
+kind: ExternalService
+name: football-api-user-app
+spec:
+  image_pull_policy: Always
+  port: 5003
+  source:
+    context: .
+    node_version: '16'
+    project_type: nodejs
+  resources:
+      memory: 100Mi

@@ -1,0 +1,7 @@
+POST https://football-api-user-app-mohsenxad.fandogh.cloud/user/setTitle
+token: <AUTH_TOKEN>
+Content-Type: application/json
+
+{
+    "title":"mohsenXAD"
+}

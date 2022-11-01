@@ -1,0 +1,2 @@
+GET https://football-api-user-app-mohsenxad.fandogh.cloud/user/getToken
+deviceid:123123
